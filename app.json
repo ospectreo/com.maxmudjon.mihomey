@@ -3795,6 +3795,13 @@
             "id": "icon"
           },
           {
+            "id": "battery",
+            "capabilities": [
+              "measure_battery"
+            ],
+            "options": { "showTitle": true }
+          },
+          {
             "id": "sensor",
             "capabilities": [ "alarm_smoke", "measure_smoke_density", "alarm_battery" ],
             "options": {
